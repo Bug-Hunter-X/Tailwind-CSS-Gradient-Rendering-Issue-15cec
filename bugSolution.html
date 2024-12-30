@@ -1,0 +1,6 @@
+```html
+<div class="bg-gradient-to-r from-blue-500 to-purple-500 p-4 rounded-lg shadow-lg">
+  <!-- Content here -->
+</div>
+```
+This solution is identical to the buggy code but will work correctly after correctly installing and configuring Tailwind.  The key is that Tailwind's `@apply` directives (if using JIT mode) or the inclusion of the CSS classes are correctly processed by your build system.
